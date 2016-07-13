@@ -1,5 +1,5 @@
-# hello-world
-A test of the possibilities
+# notes
+Tests and guide of the github possibilities
 
 ## Goals
 - tags test
