@@ -4,3 +4,4 @@ A test of the possibilities
 ## Goals
 - tags test
 - wiki test
+- page test
