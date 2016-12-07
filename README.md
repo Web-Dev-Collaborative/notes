@@ -2,6 +2,7 @@
 Tests and guide of the github possibilities
 
 ## Goals
+- repository [bilardi/see-git-steps](https://github.com/bilardi/see-git-steps)
 - project test
 - repositories [bilardi/bash-prototype](https://github.com/bilardi/bash-prototype) and [bilardi/bashunit](https://github.com/bilardi/bashunit)
 - remove repositories \*Test
