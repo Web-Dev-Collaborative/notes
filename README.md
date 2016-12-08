@@ -2,7 +2,8 @@
 Tests and guide of the github possibilities
 
 ## Goals
-- repository [bilardi/see-git-steps](https://github.com/bilardi/see-git-steps)
+- start with repository [pandle/materials](https://github.com/pandle/materials)
+- repositories [bilardi/see-git-steps](https://github.com/bilardi/see-git-steps) and [bilardi/php-prototype](https://github.com/bilardi/php-prototype)
 - project test
 - repositories [bilardi/bash-prototype](https://github.com/bilardi/bash-prototype) and [bilardi/bashunit](https://github.com/bilardi/bashunit)
 - remove repositories \*Test
