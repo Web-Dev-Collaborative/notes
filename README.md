@@ -2,6 +2,7 @@
 Tests and guide of the github possibilities
 
 ## Goals
+- move my sites on jekyll theme
 - start with repository [pandle/materials](https://github.com/pandle/materials)
 - repositories [bilardi/see-git-steps](https://github.com/bilardi/see-git-steps) and [bilardi/php-prototype](https://github.com/bilardi/php-prototype)
 - project test
