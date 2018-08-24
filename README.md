@@ -4,8 +4,8 @@ Tests and guide of the github possibilities
 ## Goals
 ### issues open
 - jekyll test for bilardi.info [dashingcode/front-cover](https://github.com/dashingcode/front-cover)
-- jekyll test for bilardi.net and pandle.net blog with [renyuanz/leonids](https://github.com/renyuanz/leonids) and [olakara/JekyllMetro](https://github.com/olakara/JekyllMetro)
-- jekyll test for pandle.space with [swcool/landing-page-theme](https://github.com/swcool/landing-page-theme)
+- jekyll test for blog of bilardi.net and code.pandle.net with [renyuanz/leonids](https://github.com/renyuanz/leonids) (maybe [olakara/JekyllMetro](https://github.com/olakara/JekyllMetro))
+- jekyll test for pandle.net and pandle.space with [swcool/landing-page-theme](https://github.com/swcool/landing-page-theme)
 - all inclusive, [mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes)
 
 ### issues closed
