@@ -2,18 +2,19 @@
 Tests and guide of the github possibilities
 
 ## Goals
-jekyll tests with
-- only links [dashingcode/front-cover](https://github.com/dashingcode/front-cover)
-- resume and blog, [renyuanz/leonids](https://github.com/renyuanz/leonids) and [olakara/JekyllMetro](https://github.com/olakara/JekyllMetro)
-- for pandle.org, [damianeoloan/JekyllOrg](https://github.com/damianeoloan/JekyllOrg)
+### issues open
+- jekyll test for bilardi.info [dashingcode/front-cover](https://github.com/dashingcode/front-cover)
+- jekyll test for bilardi.net and pandle.net blog with [renyuanz/leonids](https://github.com/renyuanz/leonids) and [olakara/JekyllMetro](https://github.com/olakara/JekyllMetro)
+- jekyll test for pandle.space with [swcool/landing-page-theme](https://github.com/swcool/landing-page-theme)
 - all inclusive, [mmistakes/minimal-mistakes](https://github.com/mmistakes/minimal-mistakes)
 
-other issues
+### issues closed
+- jekyll test for [pandle.org](https://pandle.github.io/org/) with [damianeoloan/JekyllOrg](https://github.com/damianeoloan/JekyllOrg)
 - move my sites on jekyll theme [without install jekyll](https://gist.github.com/bilardi/6b6cdcfabed5e5976ba697544be714d6) (gist)
 - start with repository [pandle/materials](https://github.com/pandle/materials)
 - repositories [bilardi/see-git-steps](https://github.com/bilardi/see-git-steps) and [bilardi/php-prototype](https://github.com/bilardi/php-prototype)
-- project test
+- project [test](https://github.com/bilardi/notes/projects/1)
 - repositories [bilardi/bash-prototype](https://github.com/bilardi/bash-prototype) and [bilardi/bashunit](https://github.com/bilardi/bashunit)
 - remove repositories bilardi/JekyllMetroTest, bilardi/JekyllOrgTest, bilardi/leonidsTest and bilardi/minimal-mistakes-test
 - wiki test with [homepage](https://github.com/bilardi/notes/wiki)
-- tags test
+- tags [test](https://github.com/bilardi/notes/tree/v1.0.1)
