@@ -1,3 +1,10 @@
+# Update 01/23/2019
+I've added
+* the choice of the author text color from _config.yaml
+* 404 page not found
+* the choice of the favicon and meta images from _config.yaml
+* added custom-link on sidebar from _config.yaml
+
 # Update 01/22/2019
 I've added the vision of navigation bar on each post and moved categories and tags on a file to include
 
