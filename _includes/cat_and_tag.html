@@ -1,0 +1,19 @@
+{% assign post = page %}
+      {% if post.categories.size > 0 and site.hide.categories == false %}
+      •
+      {% for cat in post.categories %}
+        <a class="post-cat" href="{{ site.url }}/categories/#{{ cat }}">{{ cat }}</a>
+        {% unless forloop.last %}
+        <span>/</span>
+        {% endunless %}
+      {% endfor %}
+      {% endif %}
+      {% if post.categories.size > 0 and site.hide.tags == false %}
+      •
+      {% for tag in post.tags %}
+        <a class="post-{%if site.hide.categories == true %}cat{% else %}tag{% endif %}" href="{{ site.url }}/tags/#{{ tag }}">{{ tag }}</a>
+        {% unless forloop.last %}
+        <span>/</span>
+        {% endunless %}
+      {% endfor %}
+      {% endif %}
