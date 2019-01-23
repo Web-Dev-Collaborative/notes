@@ -42,5 +42,10 @@
     {% if author.reddit %}<li><a href="https://reddit.com/user/{{ author.reddit }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-reddit"></i></a></li>{% endif %}
     {% if author.telegram %}<li><a href="https://t.me/{{ author.telegram }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-telegram"></i></a></li>{% endif %}
     {% if author.wikipedia %}<li><a href="http://en.wikipedia.org/wiki/User:{{ author.wikipedia }}" class="social-link-item" target="_blank"><i class="fa fa-fw fa-wikipedia-w"></i></a></li>{% endif %}
+    {% if author.custom %}
+      {% for link in author.custom %}
+      <li><a href="{{ link.url }}" class="social-link-item" target="_blank"><i class="fa fa-fw {{ link.icon }}"></i></a></li>
+      {% endfor %}
+    {% endif %}
   </ul>
 </div>

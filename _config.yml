@@ -90,6 +90,9 @@ owner:
   reddit: #username
   telegram: #username
   wikipedia: #username
+  custom:
+    - url: http://github.com/renyuanz/leonids/
+      icon: fa-code-fork
 
 webrick:
   headers:
@@ -98,6 +101,8 @@ webrick:
 style:
   text:
     color: rgba(0, 0, 0, 0.87)
+  author:
+    color: "#F36170"
   background:
     color: "#f5f5f5"
     image: #http://domain.name/path/background.jpg

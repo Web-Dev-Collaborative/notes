@@ -8,6 +8,7 @@
 
 // Variables
 $textcolor: {{ site.style.text.color }};
+$authorcolor: {{ site.style.author.color }};
 $backgroundcolor: {{ site.style.background.color }};
 $backgroundimage: "{{ site.style.background.image }}";
 $backgroundsize: {{ site.style.background.size }};
