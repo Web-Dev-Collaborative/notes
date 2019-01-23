@@ -11,17 +11,15 @@ favicon: # links of your favicon
   - https://s3-eu-west-1.amazonaws.com/cdn.bilardi.net/favicon.ico
 keywords: ["blog", "jekyll", "notes"]
 meta:
-  twitter-image: leonids-logo.png
-#  twitter-image: # or external link
-  og-image: leonids-logo.png
-#  og-image: # or external link
+  twitter-image: https://s3-eu-west-1.amazonaws.com/cdn.bilardi.net/alessandra/index/glider.3d.png
+  og-image: https://s3-eu-west-1.amazonaws.com/cdn.bilardi.net/alessandra/index/glider.3d.png
 hide:
   home: false
   archive: false
   categories: false
   resume: true
-  tags: true
-  navigation: true
+  tags: false
+  navigation: false
 navigation:
   left:
 #    icon: fa-angle-left
@@ -64,9 +62,9 @@ plugins:
 #
 owner:
   name: My notes
-  avatar: leonids-logo.png
-  job: 
-  bio: 
+  avatar:
+  job:
+  bio:
   email:
   disqus-shortname:
   twitter: abilardi #username
@@ -101,8 +99,16 @@ owner:
   telegram: #username
   wikipedia: Bilardi #username
   custom:
-    - url: http://github.com/renyuanz/leonids/
-      icon: fa-code-fork
+    - url: https://bilardi.github.com/notes/feed.html
+      icon: fa-rss
+    - url: https://www.pandle.net/
+      icon: fa-share-alt
+    - url: https://bilardi.github.com/bookmarks/
+      icon: fa-bookmark
+    - url: https://bilardi.github.com/comics/
+      icon: fa-comment
+    - url: https://bilardi.github.com/resume/
+      icon: fa-file
 
 webrick:
   headers:
@@ -112,7 +118,7 @@ style:
   text:
     color: rgba(0, 0, 0, 0.87)
   author:
-    color: "#F36170"
+    color: "#fff"
   background:
     color: "#f5f5f5"
     image: https://s3-eu-west-1.amazonaws.com/cdn.bilardi.net/alessandra/index/background.jpg #http://domain.name/path/background.jpg
