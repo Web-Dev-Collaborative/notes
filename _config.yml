@@ -6,7 +6,8 @@
 title: My notes
 email:
 description: My notes
-url: https://bilardi.github.io/notes # the base hostname & protocol for your site
+#url: https://bilardi.github.io/notes # the base hostname & protocol for your site
+url: http://0.0.0.0:4000
 favicon: # links of your favicon
   - https://s3-eu-west-1.amazonaws.com/cdn.bilardi.net/favicon.ico
 keywords: ["blog", "jekyll", "notes"]
@@ -54,6 +55,7 @@ kramdown:
 
 plugins:
   - jekyll-redirect-from
+  - jekyll-feed
 
 #
 ###################################
@@ -99,7 +101,7 @@ owner:
   telegram: #username
   wikipedia: Bilardi #username
   custom:
-    - url: https://bilardi.github.io/notes/feed.html
+    - url: https://bilardi.github.io/notes/feed.xml
       icon: fa-rss
     - url: https://www.pandle.net/
       icon: fa-share-alt
