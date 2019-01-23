@@ -10,5 +10,5 @@ This repository has been my tests of the github features. Since 2019, I loaded m
 
 ## Changes
 - I created 2 [projects](https://github.com/bilardi/notes/projects) where I mark my issues
-- I moved the README.md of the repository forked into [CHANGES.md](CHANGES.md)
-- and the old updates persist on the file [GOALS.md](GOALS.md)
+- I moved the README.md of the repository forked into [CHANGES](CHANGES)
+- and the old updates persist on the file [GOALS](GOALS)
