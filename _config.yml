@@ -6,8 +6,7 @@
 title: My notes
 email:
 description: My notes
-#url: https://bilardi.github.io/notes # the base hostname & protocol for your site
-url: http://0.0.0.0:4000
+url: https://bilardi.github.io/notes # the base hostname & protocol for your site
 favicon: # links of your favicon
   - https://s3-eu-west-1.amazonaws.com/cdn.bilardi.net/favicon.ico
 keywords: ["blog", "jekyll", "notes"]
