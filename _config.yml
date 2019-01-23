@@ -3,18 +3,18 @@
 # Site wide configuration
 ####################################
 #
-title: Leonids
+title: My notes
 email:
-description: A simple and awesome blog theme powered by jekyll.
-url: # the base hostname & protocol for your site
-keywords: ["blog", "jekyll"]
+description: My notes
+url: /notes # the base hostname & protocol for your site
+keywords: ["blog", "jekyll", "notes"]
 hide:
   home: false
   archive: false
   categories: false
   resume: false
-  tags: false
-  navigation: false
+  tags: true
+  navigation: true
 navigation:
   left:
 #    icon: fa-angle-left
@@ -28,13 +28,13 @@ navigation:
 #    icon: fa-angle-right
     icon: fa-arrow-right
     color: success
-  
+
 #
 ###################################
 # Jekyll configuration
 ####################################
 #
-timezone:          Europe/Paris
+timezone:          Europe/Rome
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
@@ -53,13 +53,13 @@ kramdown:
 ####################################
 #
 owner:
-  name: Leonids
+  name: My notes
   avatar: leonids-logo.png
-  job: "A jekyll theme"
-  bio: "A simple and awesome blog theme powered by jekyll."
+  job: 
+  bio: 
   email:
   disqus-shortname:
-  twitter: #username
+  twitter: abilardi #username
   facebook: #username
   google:
     plus: #username
@@ -68,10 +68,10 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: #username
+  github: bilardi #username
   gitlab: #username
-  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: #username
+  stackoverflow: 1472538 #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: bilardi #username
   skype: #username
   xing: #username
   instagram: #username
@@ -89,7 +89,7 @@ owner:
   codepen: #username
   reddit: #username
   telegram: #username
-  wikipedia: #username
+  wikipedia: Bilardi #username
 
 webrick:
   headers:
@@ -100,7 +100,7 @@ style:
     color: rgba(0, 0, 0, 0.87)
   background:
     color: "#f5f5f5"
-    image: #http://domain.name/path/background.jpg
+    image: https://s3-eu-west-1.amazonaws.com/cdn.bilardi.net/alessandra/index/background.jpg #http://domain.name/path/background.jpg
     size: cover
   color:
     white: "#fff"
