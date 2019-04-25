@@ -14,7 +14,8 @@ What I done:
 - I redirected resume page on homepage because I have one [repository dedicated](https://github.com/bilardi/resume)
 - I removed the original posts and moved the README.md of the repository forked into [CHANGES.md](https://github.com/bilardi/notes/blob/master/CHANGES.md)
 - the old README.md of my notes persist on the file [GOALS.md](https://github.com/bilardi/notes/blob/master/GOALS.md)
+- I converted my wordpress blog ITtips in this Jekyll theme by [benbalter/wordpress-to-jekyll-exporter](https://github.com/benbalter/wordpress-to-jekyll-exporter)
 
 What missing:
-- I have to convert my wordpress blog [ITtips](http://ittips.pandle.net/) in this Jekyll theme
-- I have to restart to write..
+- I have to manage the drafts contents
+- I have to recover any notes around
