@@ -3,7 +3,7 @@ layout: page
 permalink: about.html
 ---
 #### My notes
-This page is my README.md file of my first GitHub repository: it has been the place of my GitHub features tests. Since 2019, I have loaded my blog on a jekyll theme forked from the repository [bilardi/leonids](https://github.com/bilardi/leonids).
+This page is my README.md file of my first [GitHub repository](https://github.com/bilardi/notes): it has been the place of my GitHub features tests. Since 2019, I have loaded my blog on a jekyll theme forked from the repository [bilardi/leonids](https://github.com/bilardi/leonids).
 
 What I done:
 - I created 2 [projects](https://github.com/bilardi/notes/projects) where I mark my issues
