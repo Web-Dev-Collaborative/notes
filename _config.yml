@@ -3,23 +3,25 @@
 # Site wide configuration
 ####################################
 #
-title: My notes
+title: Leonids
 email:
-description: My notes
-url: https://bilardi.github.io/notes # the base hostname & protocol for your site
+description: A simple and awesome blog theme powered by jekyll.
+url: https://bilardi.github.io/leonids # the base hostname & protocol for your site
 repository-forked: http://github.com/bilardi/leonids/ # in the footer
 favicon: # links of your favicon
-  - https://s3-eu-west-1.amazonaws.com/cdn.bilardi.net/favicon.ico
-keywords: ["blog", "jekyll", "notes"]
+  - favicon.ico
+  - favicon.png
+#  - external link
+keywords: ["blog", "jekyll"]
 meta:
-  twitter-image: https://s3-eu-west-1.amazonaws.com/cdn.bilardi.net/alessandra/index/glider.3d.png # or external link
-  og-image: https://s3-eu-west-1.amazonaws.com/cdn.bilardi.net/alessandra/index/glider.3d.png # or external link
+  twitter-image: leonids-logo.png # or external link
+  og-image: leonids-logo.png # or external link
 home:
-  hide-on-sidebar: true
+  hide-on-sidebar: false
 #  icon: fa-leaf
 #  icon: fa-home
 readme:
-  hide-on-sidebar: false
+  hide-on-sidebar: true
   title: about
   url: about.html
 navigation:
@@ -64,7 +66,7 @@ resume:
 # Jekyll configuration
 ####################################
 #
-timezone:          Europe/Rome
+timezone:          Europe/Paris
 markdown:          kramdown
 highlighter:       rouge
 excerpt_separator: <!--more-->
@@ -88,13 +90,16 @@ plugins:
 ####################################
 #
 owner:
-  name: My notes
-  avatar:
-  job:
-  bio:
+  name: Leonids
+  author:
+    name: #your name
+    link: #your homepage
+  avatar: leonids-logo.png # or external link
+  job: "A jekyll theme"
+  bio: "A simple and awesome blog theme powered by jekyll."
   email:
   disqus-shortname:
-  twitter: abilardi #username
+  twitter: #username
   facebook: #username
   google:
     plus: #username
@@ -103,10 +108,10 @@ owner:
     ad-client:
     ad-slot:
   bing-verify:
-  github: bilardi #username
+  github: #username
   gitlab: #username
-  stackoverflow: 1472538 #123456/username   from a "http://stackoverflow.com/users/123456/username" link
-  linkedin: bilardi #username
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: #username
   skype: #username
   xing: #username
   instagram: #username
@@ -124,17 +129,11 @@ owner:
   codepen: #username
   reddit: #username
   telegram: #username
-  wikipedia: Bilardi #username
+  wikipedia: #username
   custom:
-    - url: https://bilardi.github.io/notes/feed.xml
-      icon: fa-rss
-    - url: https://www.pandle.net/
-      icon: fa-share-alt
-    - url: https://bilardi.github.io/bookmarks/
-      icon: fa-bookmark
-    - url: https://bilardi.github.io/resume/
-      icon: fa-file
     - url: http://github.com/bilardi/leonids/
+      icon: fa-code
+    - url: http://github.com/renyuanz/leonids/
       icon: fa-code-fork
 
 webrick:
@@ -145,17 +144,17 @@ style:
   text:
     color: rgba(0, 0, 0, 0.87)
   author:
-    color: "#fff"
+    color: "#F36170"
   background:
     color: "#f5f5f5"
-    image: https://s3-eu-west-1.amazonaws.com/cdn.bilardi.net/alessandra/index/background.jpg #http://domain.name/path/background.jpg
+    image: #http://domain.name/path/background.jpg
     size: cover
   navigation-background:
     color: "#f6f6f6"
   color:
     white: "#fff"
     primary: "#42b983"
-    secondary: rgba(0, 0, 0, 0.87)
+    secondary: "#8d7edc"
     success: "#65e892"
     danger: "#f83e4b"
     warning: "#F5A623"
