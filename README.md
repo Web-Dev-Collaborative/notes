@@ -9,7 +9,7 @@ What I done:
 - I created 2 [projects](https://github.com/bilardi/notes/projects) where I mark my issues
 - I forked the repository of [bilardi/leonids](https://github.com/bilardi/leonids)
 - I followed this macro [gist](https://gist.github.com/bilardi/6b6cdcfabed5e5976ba697544be714d6) guide
-- I saved the branch named leonids as my sync with the original repository
+- I saved the branch named leonids as my [sync](https://gist.github.com/bilardi/97d4098c2ff21065d2d29c715dcb3812) with the original repository
 - I used the free icons of [fontawesome.com](https://fontawesome.com/icons)
 - I redirected resume page on homepage because I have one [repository dedicated](https://github.com/bilardi/resume)
 - I removed the original posts and moved the README.md of the repository forked into [CHANGES.md](https://github.com/bilardi/notes/blob/master/CHANGES.md)
